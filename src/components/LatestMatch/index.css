@@ -1,0 +1,116 @@
+/* Write your CSS here */
+* {
+  color: white;
+  font-weight: bold;
+  font-family: Bree serif;
+}
+
+.LatestMatch-bg-cont {
+  display: flex;
+  width: 100%;
+  background-color: #0f172a;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.LatestMatch-img-details-cont {
+  width: 66%;
+  height: 95%;
+  display: flex;
+}
+
+.LatestMatch-details-cont {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.latestMatchDetails-heading {
+  margin-bottom: 10px;
+  font-size: 25px;
+}
+
+.LatestMatch-date-para {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.LatestMatch-content-para {
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.LatestMatch-content-para-2 {
+  font-size: 15px;
+  margin-bottom: 10px;
+  text-align: right;
+}
+
+.LatestMatch-img-cont {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.LatestMatch-img {
+  height: 200px;
+  width: 200px;
+}
+
+.LatestMatch-other-details-cont {
+  height: 100%;
+  width: 29%;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 767px) {
+  .LatestMatch-content-para {
+    font-size: 10px;
+    width: 70%;
+  }
+  .latestMatchDetails-heading {
+    font-size: 7px;
+  }
+  .LatestMatch-bg-cont {
+    flex-direction: column;
+  }
+
+  .LatestMatch-img-details-cont {
+    width: 100%;
+    height: 50%;
+  }
+
+  .LatestMatch-img-details-cont {
+    border-bottom: 2px solid gray;
+  }
+
+  .LatestMatch-details-cont {
+    width: 65%;
+  }
+
+  .LatestMatch-img-cont {
+    width: 35%;
+  }
+
+  .LatestMatch-img {
+    height: 70%;
+    width: 85%;
+  }
+
+  .LatestMatch-other-details-cont {
+    width: 100%;
+  }
+
+  .LatestMatch-content-para-2 {
+    font-size: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+  }
+}

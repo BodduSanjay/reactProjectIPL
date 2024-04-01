@@ -1,0 +1,43 @@
+/* Write your CSS here */
+.teamCard-link {
+  text-decoration: none;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.teamCard-li {
+  list-style-type: none;
+  height: 120px;
+  width: 45%;
+  border: 1px solid white;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.teamCard-img {
+  height: 90%;
+  width: 80px;
+}
+
+.teamCard-h1 {
+  font-size: 15px;
+  margin: 5px;
+}
+
+@media (max-width: 767px) {
+  .teamCard-li {
+    width: 40%;
+  }
+  .teamCard-img {
+    height: 50px;
+    width: 50px;
+  }
+  .teamCard-h1 {
+    font-size: 10px;
+  }
+}

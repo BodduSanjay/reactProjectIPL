@@ -1,0 +1,85 @@
+/* Write your CSS here */
+.bg-KKR {
+  background-image: linear-gradient(to bottom, #5755a7, black);
+  min-height: 100vh;
+  width: 100vw;
+}
+.bg-RCB {
+  background-image: linear-gradient(to bottom, #1e293b, black);
+  min-height: 100vh;
+  width: 100vw;
+}
+.bg-KXP {
+  background-image: linear-gradient(to bottom, #a4261d, black);
+  min-height: 100vh;
+  width: 100vw;
+}
+.bg-CSK {
+  background-image: linear-gradient(to bottom, #f7db00, black);
+  min-height: 100vh;
+  width: 100vw;
+}
+.bg-RR {
+  background-image: linear-gradient(to bottom, #d91c1f, black);
+  min-height: 100vh;
+  width: 100vw;
+}
+.bg-MI {
+  background-image: linear-gradient(to bottom, #13418b, black);
+  min-height: 100vh;
+  width: 100vw;
+}
+.bg-SH {
+  background-image: linear-gradient(to bottom, #f26d22, black);
+  min-height: 100vh;
+  width: 100vw;
+}
+.bg-DC {
+  background-image: linear-gradient(to bottom, #da237b, black);
+  min-height: 100vh;
+  width: 100vw;
+}
+
+.teamMatches-bg {
+  padding-top: 30px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.teamMatches-banner-img {
+  height: 250px;
+  width: 90%;
+  margin-bottom: 20px;
+}
+
+.latestMatchDetails-cont {
+  width: 90%;
+}
+
+.latestMatchDetails-para {
+  color: white;
+  font-family: Bree serif;
+  margin-bottom: 3px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.teamMatches-ul-cont {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-left: 0%;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 767px) {
+  .teamMatches-banner-img {
+    height: 130px;
+    width: 90%;
+  }
+}
